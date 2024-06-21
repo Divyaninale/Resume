@@ -436,6 +436,9 @@ h2{
 .btn:hover {
     background-color: #ff6347; /* Darker Orange-Red on hover */
 }
+.btn-container{
+    display: inline-block;
+}
 
 .projects-section {
     text-align: center;
