@@ -745,6 +745,45 @@ h2{
 .sub-skill-card h4 {
     color: var(--yellow);
 }
+.skills-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.skill-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: calc(50% - 20px);
+    max-width: 300px;
+    text-align: left;
+}
+
+.sub-skill-card {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sub-skill-card img {
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .skill-card {
+        width: calc(100% - 20px);
+    }
+}
+
 
 .contact-section {
     padding: 50px 0;
