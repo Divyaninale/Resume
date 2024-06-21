@@ -918,6 +918,10 @@ body {
     .info {
         padding: 10px;
     }
+    .btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
 }
 
 
