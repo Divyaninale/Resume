@@ -685,7 +685,7 @@ h2{
 }
 
 .skill-card {
-    background-color: #000;
+    background-color: var(--black);;
     border: 1px solid var(--yellow);
     border-radius: 8px;
     padding: 20px;
@@ -757,7 +757,7 @@ h2{
 }
 
 .skill-card {
-    background-color: #fff;
+    background-color:var(--black); ;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -781,6 +781,9 @@ h2{
 @media (max-width: 768px) {
     .skill-card {
         width: calc(100% - 20px);
+    }
+    .sub-skill-card img {
+        max-height: 30px; /* Adjust image size for smaller screens */
     }
 }
 
