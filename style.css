@@ -368,6 +368,7 @@ h2{
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem 0;
+    margin-left: 10px;
 }
 
 .about .row .info{
@@ -913,6 +914,7 @@ body {
 
     .info h3 {
         font-size: 16px;
+        margin-left: 0.3rem;
     }
 
     
@@ -929,6 +931,7 @@ body {
 
     .info h3 {
         font-size: 14px;
+        margin-left: 0.3rem;
     }
 
     
