@@ -911,22 +911,7 @@ body {
     color: #007BFF;
 }
 
-.btn {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
-}
 
-.btn i {
-    margin-left: 10px;
-}
 
 /* Responsive styles for mobile */
 @media (max-width: 768px) {
@@ -938,29 +923,23 @@ body {
         font-size: 16px;
     }
 
-    .btn {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
+    
 }
 
 @media (max-width: 480px) {
     .about {
-        padding: 10px;
+        padding: 5px;
     }
 
     .heading {
-        font-size: 24px;
+        font-size: 36px;
     }
 
     .info h3 {
         font-size: 14px;
     }
 
-    .btn {
-        font-size: 12px;
-        padding: 6px 12px;
-    }
+    
 }
 
 
