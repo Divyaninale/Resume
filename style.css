@@ -669,82 +669,6 @@ h2{
     margin-bottom: 5px;
 }
 
-
-.skills-section {
-    padding: 50px 0;
-    text-align: center;
-}
-.skills-section h2 {
-    font-size: 4rem;
-}
-
-.skill-card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.skill-card {
-    background-color: var(--black);;
-    border: 1px solid var(--yellow);
-    border-radius: 8px;
-    padding: 20px;
-    margin: 30px;
-    width: 500px;
-    text-align: center;
-    color: #fff;
-}
-.skill-card h3{
-    color:white;
-    font-size: 20px;
-}
-.skill-card h4{
-    color:white;
-    font-size: 15px;
-}
-.horizontal-bar {
-    width: 80%;
-    height: 6px;
-    background: #3e3c3c;
-    margin: 10px 0;
-}
-
-.skill-card:hover {
-    border-radius: 15px;
-    border-color: red;
-    transition: transform 0.3s ease;
-    transform: scale(1.05);
-}
-
-.skill-card img {
-    max-width: 50%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.skill-card h3, .skill-card h4 {
-    margin-top: 0;
-}
-
-.skill-card p {
-    color: #ddd;
-   
-}
-
-.skill-card .sub-skill-card {
-    display: inline-block;
-    margin: 10px;
-}
-
-.sub-skill-card img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
-}
-
-.sub-skill-card h4 {
-    color: var(--yellow);
-}
 .skills-section {
     padding: 20px;
     text-align: center;
@@ -757,7 +681,8 @@ h2{
 }
 
 .skill-card {
-    background-color:var(--black); ;
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -774,7 +699,9 @@ h2{
 }
 
 .sub-skill-card img {
-    max-width: 40px;
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 40px; /* Limit maximum height */
     margin-right: 10px;
 }
 
@@ -782,10 +709,12 @@ h2{
     .skill-card {
         width: calc(100% - 20px);
     }
+
     .sub-skill-card img {
         max-height: 30px; /* Adjust image size for smaller screens */
     }
 }
+
 
 
 .contact-section {
