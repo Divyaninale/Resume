@@ -962,6 +962,10 @@ body {
 
     
 }
+@media (max-width: 400px) {
+    .skill-card {
+        width: calc(100% - 20px); /* Full width cards on smaller screens */
+    }
 
 
 
