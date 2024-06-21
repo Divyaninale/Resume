@@ -373,7 +373,7 @@ h2{
 .about .row .info{
     flex: 1 1 48rem;
     padding:2 rem 1rem;
-    padding-left: 6rem;
+    
 }
 
 .about .row .info h3 span{
