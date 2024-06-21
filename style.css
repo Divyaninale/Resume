@@ -892,9 +892,7 @@ body {
     margin-bottom: 20px;
 }
 
-.heading span {
-    color: #007BFF;
-}
+
 
 .row {
     display: flex;
@@ -902,14 +900,7 @@ body {
     align-items: center;
 }
 
-.info h3 {
-    font-size: 18px;
-    margin: 10px 0;
-}
 
-.info h3 span {
-    color: #007BFF;
-}
 
 
 
