@@ -1,0 +1,757 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600&family=Nunito:wght@200;300;400;500;600&display=swap');
+:root{
+    --yellow:#f9ca24;
+}
+
+*{
+    font-family: 'Nunito',sans-sarif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background: var(--yellow);
+    color: #333;
+}
+
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+html::-webkit-scrollbar{
+    width:1.4rem;
+
+}
+html::-webkit-scrollbar-track{
+    background: #222;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--yellow);
+}
+
+body{
+    background: #111;
+    overflow: hidden;
+    padding-left: 35rem;
+}
+section{
+    min-height:100vh;
+    padding: 1rem;
+}
+
+.btn{
+    padding: 7rem 3rem;
+    background:#333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.btn{
+    padding: 0.5rem;
+    font-size: 1.8rem;
+
+}
+.btn:hover{
+    background:var(--yellow) ;
+}
+section {
+    padding: 20px;
+
+    height: 300px;
+    overflow: auto;
+}
+.heading
+{
+    text-align: center;
+    margin: 0.6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: 1rem solid #fff4;
+    color: #fff;
+
+}
+
+.heading span{
+    color: var(--yellow);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    min-height: 100%;
+    width: 35rem;
+    height: 70%;
+    background: #1a1a1a;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height:10rem;
+    width: 10rem;
+    border-radius: 50%;
+
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .5rem solid white;
+}
+header .user .name{
+    font-size: 3rem;
+    color: #fff;
+}
+
+header .user .post{
+    font-size: 2rem;
+    color:#eee;
+}
+header .navbar{
+    width:80%;
+    height: auto;
+
+}
+
+header .navbar ul{
+    list-style:none;
+    padding: 1rem 3rem;
+}
+
+header .navbar ul li a{
+    display: block;
+    width: 80%;
+    
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+}
+
+header .navbar ul li a:hover{
+    background: var(--yellow);
+}
+
+#menu{
+    
+
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2.5rem;
+    background-color:black;
+    color:#ddd;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    z-index: 1000;
+    display: none;
+
+}
+/* Add or modify styles as needed */
+section {
+    padding: 20px;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+/* Other existing styles remain unchanged */
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+    overflow: auto;
+    }
+
+.home h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.home h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.home p{
+    font-size: 2rem;
+    color: #eee;
+    padding: 1 rem 0;
+}
+
+.home h1 span{
+    color: var(--yellow);
+}
+.education {
+    padding: 50px;
+    text-align: center;
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    
+        overflow: auto;
+    
+}
+
+/* Card container styles */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Individual card styles */
+.card {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: left;
+}
+.card span{
+    color: gold;
+}
+
+
+.card h3 {
+    color: #fff; /* White text color for heading */
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.card p {
+    margin: 10px 0;
+    color: #ddd; /* Light gray text color for paragraphs */
+    font-size: 14px;
+}
+h2{
+    color: gold;
+}
+.card:hover {
+    border-radius: 15px;
+    border-color: red;
+    transform: scale(1.05);
+}
+/* Add these styles to your style.css file */
+
+/* About section styles */
+
+
+/* About content styles */
+
+
+.about .row{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.about .row .info{
+    flex: 1 1 48rem;
+    padding:2 rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3 span{
+    color:#eee;
+    padding: 0.5rem;
+    font-size: 20px;
+
+}
+
+.about .row .counter{
+    flex:1 1 48rem;
+    padding:2 rem 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box{
+    width: 20rem;
+    background: #222;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+.about .row .counter .box span{
+    font-size: 10rem;
+    color: var(--yellow);
+}
+.about .row .counter .box h3{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.about .row .info h3{
+    font-size: 20px;
+    color: var(--yellow);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.about .row .info p{
+    font-size: 10px;
+    color: var(--yellow);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+/* Button styles */
+.btn {
+    background-color: gray; /* Orange-Red button background color */
+    color: #fff; /* White text color for button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff6347; /* Darker Orange-Red on hover */
+}
+
+.projects-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    background-color:black;
+    border: 1px solid gold;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px;
+    width: 300px;
+    text-align: center;
+}
+.project-card:hover {
+    border-radius: 15px;
+    border-color: red;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    
+}
+.education h2 {
+    font-size: 4rem;
+}
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.project-card h3{
+    margin-top: 0;
+    color:gold;
+    font-size: 20px;
+}
+.project-card h4{
+    margin-top: 0;
+    color:white;
+    font-size: 12px;
+}
+
+.project-card p {
+    color: white;
+    font-size: 1.5rem;;
+}
+
+
+.project-card button {
+    background-color:gold;
+    color: black;
+    padding: 5px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+    height: 20px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.project-card button:hover {
+    background-color:gold;
+}
+
+.projects-section h2{
+    font-size: 4rem;
+}
+/* Add these styles to your existing CSS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+:root {
+    --yellow: #f9ca24;
+    --black: #111;
+    --dark-gray: #2c3e50;
+    --light-gray: #bdc3c7;
+    --white: #ecf0f1;
+    --red: #e74c3c; /* Red color */
+}
+
+.experience {
+    padding: 0px 0;
+    background-color: var(--black); /* Background color */
+    font-family: 'Nunito', sans-serif;
+    color: var(--white); /* White color */
+}
+
+.experience h2 {
+    text-align: center;
+    color: var(--yellow); /* Yellow color for heading */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.experience p {
+    text-align: center;
+    font-size: 15px;
+    color: var(--white); /* White color for paragraph */
+    margin-bottom: 40px;
+}
+
+.horizontal-bar {
+    width: 80%;
+    height: 6px;
+    background: var(--dark-gray);
+    margin: 10px 0;
+}
+
+.experience-card-container {
+    display: flex;
+    justify-content: center; /* Center the container */
+    align-items: center;
+}
+
+.experience-card {
+    background-color: var(--black); /* Darker background */
+    color: var(--white); /* White color */
+    
+    border-radius: 10px;
+    border: 2px solid var(--red); /* Red border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Control the card width */
+    margin: 20px; /* Add margin for spacing */
+    display: flex;
+    align-items: flex-start;
+}
+
+.experience-card img {
+    width: 50px; /* Width of the logo */
+    height: 50px; /* Height of the logo */
+    margin-right: 20px; /* Space between the logo and text */
+    border-radius: 5px; /* Optional: Rounded corners for the logo */
+    margin-left: 10px;
+    margin-top: 20px;
+    
+
+}
+
+.experience-card h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: var(--yellow); /* Yellow color for subheading */
+}
+.experience-card div {
+    margin-left: 0%;
+}
+
+.experience-card h4 {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--yellow); /* Yellow color for company name */
+}
+
+.experience-card h5 {
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--light-gray); /* Light gray color */
+}
+
+.experience-card p {
+    
+    margin: 10px;
+    text-align: justify;
+    
+    
+    
+    
+}
+
+
+
+.experience-card ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin:5; /* Remove margin to ensure no space around the ul */
+    color: var(--yellow);
+    margin-right: 15px;
+    display: flex;
+    align-items: center; /* Align dot with text */
+}
+
+.experience-card ul li {
+    color: var(--yellow); /* Yellow color for list items */
+    margin-right: 15px; /* Adjust the right margin for list items */
+    font-size: 15px;
+    content: "•"; /* Bullet point (dot) */
+    color: var(--yellow); /* Yellow color */
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+.skills-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.skills-section h2 {
+    font-size: 4rem;
+}
+
+.skill-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #000;
+    border: 1px solid var(--yellow);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px;
+    width: 500px;
+    text-align: center;
+    color: #fff;
+}
+.skill-card h3{
+    color:white;
+    font-size: 20px;
+}
+.skill-card h4{
+    color:white;
+    font-size: 15px;
+}
+.horizontal-bar {
+    width: 80%;
+    height: 6px;
+    background: #3e3c3c;
+    margin: 10px 0;
+}
+
+.skill-card:hover {
+    border-radius: 15px;
+    border-color: red;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+.skill-card img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.skill-card h3, .skill-card h4 {
+    margin-top: 0;
+}
+
+.skill-card p {
+    color: #ddd;
+   
+}
+
+.skill-card .sub-skill-card {
+    display: inline-block;
+    margin: 10px;
+}
+
+.sub-skill-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.sub-skill-card h4 {
+    color: var(--yellow);
+}
+
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: gold;
+    font-size:4rem ;
+}
+
+.contact-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #eee;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #222;
+    color: #eee;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .about {
+        padding: 50px;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+}
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+
+
+/*media queries*/
+
+@media(max-width:1200px)
+{
+    html{
+        font-size: 55%;
+
+    }
+}
+@media(max-width:991px)
+{
+    header{
+       left: -120%;
+
+    }
+    #menu
+    {
+        display: block;
+    }
+    header.toggle{
+        left: 0%;
+
+    }
+    body{
+        padding: 0;
+    }
+}
+
+@media(max-width:768px)
+{
+    html{
+       font-size:50%;
+
+    }
+    
+}
+
+
+@media(max-width:400px)
+{
+    header{
+       width:100vw;
+
+    }
+    .heading{
+        margin: 0.3rem;
+    }
+
+    .about .row .counter ..box{
+        width:100%
+    }
+    
+}
