@@ -411,6 +411,7 @@ h2{
     color: var(--yellow);
     padding: 1rem 0;
     font-weight: normal;
+    margin-left: 10px;
 }
 .about .row .info p{
     font-size: 10px;
