@@ -901,6 +901,25 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.info {
+    margin: 0 auto; /* Equal margins on both sides */
+    max-width: 800px; /* Optional: set a max width if desired */
+    padding: 20px; /* Optional: add some padding for spacing inside the div */
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .info {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .info {
+        padding: 10px;
+    }
+}
+
 
 
 
