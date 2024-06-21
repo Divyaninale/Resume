@@ -611,6 +611,34 @@ h2{
     
     
 }
+/* Responsive styles for mobile */
+@media (max-width: 480px) {
+    h3 {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    #menu {
+        font-size: 18px;
+    }
+
+    .home {
+        padding: 10px;
+    }
+}
+
 
 
 
